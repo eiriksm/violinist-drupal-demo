@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * My module.
+ */
+
+/**
+ * Implements hook_user_login().
+ */
+function mymodule_user_login($account) {
+  throw new Exception('Something awful');
+}
