@@ -1,7 +1,7 @@
 pull_request_rules:
   - name: automatic merge on CI success and review
     conditions:
-      - status-successi~=Travis
+      - status-success~=Travis
       - title~=drupal/core
     actions:
       merge:
