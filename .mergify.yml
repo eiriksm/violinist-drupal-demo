@@ -3,6 +3,7 @@ pull_request_rules:
     conditions:
       - status-success~=Travis
       - title~=drupal/core
+      - author=violinist-bot
     actions:
       merge:
         method: merge
