@@ -1,0 +1,9 @@
+pull_request_rules:
+  - name: automatic merge on CI success and review
+    conditions:
+      - status-success~=Travis
+      - title~=drupal/core
+      - author=violinist-bot
+    actions:
+      merge:
+        method: merge
