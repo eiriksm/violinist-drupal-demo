@@ -1,5 +1,7 @@
 # violinist-drupal-demo
 
+This repo is what was in use in the demo and description in the blogpost [https://orkjern.com/updating-drupal-core-automatically-demo](https://orkjern.com/updating-drupal-core-automatically-demo)
+
 ## Travis set-up
 
 Look at the file [.travis.yml](https://github.com/eiriksm/violinist-drupal-demo/blob/master/.travis.yml)
